@@ -129,8 +129,7 @@ def main():
     st.write("Hãy tải lên các tài liệu PDF và đặt câu hỏi cho trợ lý ảo")
 
     st.sidebar.button('Clear Chat History', on_click=clear_chat_history)
-    
-    # Hiển thị  By: Trương Văn Thông với chữ gradient
+
     st.sidebar.markdown(
         '<p style="color:#f63366; font-size: 24px">Web By: Trương Văn Thông</p>',
         unsafe_allow_html=True

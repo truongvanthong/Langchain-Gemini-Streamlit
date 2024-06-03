@@ -54,7 +54,7 @@ docker compose up --build
 4. **Run the Application:**
 
    ```bash
-   streamlit run main.py
+   streamlit run app.py
    ```
 
 5. **Mở trình duyệt và truy cập vào địa chỉ `http://localhost:8501`.**
